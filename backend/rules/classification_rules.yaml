@@ -1,0 +1,21 @@
+# Règles de classification des fiches selon contact_qualif1
+# Modifiable sans changer le code. Comparaison insensible à la casse/accents (normalisée par le moteur).
+
+positif:
+  - "don avec montant"
+  - "don en ligne"
+  - "pa"
+  - "pa en ligne"
+  - "upgrade"
+
+traite:
+  - "don avec montant"
+  - "don en ligne"
+  - "pa"
+  - "pa en ligne"
+  - "indecis"
+  - "refus de repondre"
+  - "refus argumente"
+  - "upgrade"
+
+# Toute valeur de contact_qualif1 absente de la liste "traite" est considérée NON TRAITEE.

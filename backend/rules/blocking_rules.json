@@ -1,0 +1,11 @@
+{
+  "champ_evalue": "priorite",
+  "description": "Référentiel IT des règles de blocage, basé sur la sémantique du champ PRIORITE (cf. doc Hermes.Net). Modifiable via l'écran d'administration ou en réimportant ce fichier — aucune valeur n'est codée en dur dans l'application.",
+  "regles": [
+    { "id": "exclusion_admin_10", "champ": "priorite", "operateur": "==", "valeur": -10, "bloque": true, "label": "Fiche exclue par un administrateur (-10)" },
+    { "id": "exclusion_admin_11", "champ": "priorite", "operateur": "==", "valeur": -11, "bloque": true, "label": "Fiche exclue par un administrateur (-11)" },
+    { "id": "faux_numero", "champ": "priorite", "operateur": "==", "valeur": -5, "bloque": true, "label": "Faux numéro" },
+    { "id": "injoignable", "champ": "priorite", "operateur": "==", "valeur": -3, "bloque": true, "label": "Injoignable" },
+    { "id": "appel_sans_erreur", "champ": "priorite", "operateur": "==", "valeur": -1, "bloque": false, "label": "Fiche appelée sans erreur (non bloquante)" }
+  ]
+}
