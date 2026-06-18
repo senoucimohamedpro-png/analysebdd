@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show *)",
+      "PowerShell(py --version)",
+      "PowerShell(py -m pip --version)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(which python3 *)",
+      "Read(//c/Users/IT Admin/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/4fcfa943-e957-451b-beac-d5fe30ef21e6/224a042e-439d-42af-912d-3ee85decece9/**)",
+      "Bash(\"/c/Users/IT Admin/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/4fcfa943-e957-451b-beac-d5fe30ef21e6/224a042e-439d-42af-912d-3ee85decece9/bin/extract-text\" --format xlsx \"C:\\\\Users\\\\IT Admin\\\\Downloads\\\\20260615_WFP_TRP_C1_GEN_250418.xlsx\")",
+      "Bash(\"/c/Users/IT Admin/AppData/Local/Microsoft/WindowsApps/python3\" --version)",
+      "Bash(\"/c/Users/IT Admin/AppData/Local/Microsoft/WindowsApps/python3\" -c \"print\\(1\\)\")",
+      "Bash(python3)",
+      "Bash(timeout 60 grep -oP '<c r=\"D\\\\d+\"[^>]*><v>\\\\d+</v>' xl/worksheets/sheet1.xml)",
+      "Bash(python3 -c \"print\\(1\\)\")",
+      "Bash(awk 'NR==FNR{want[$1]=1; next}' /tmp/qualif1_idx.txt)",
+      "Bash(node -e \"1\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cygpath -w /tmp/qualif1_idx.txt)",
+      "Bash(cygpath -w /tmp/xlsx_extract)",
+      "Read(//c/Users/ITADMI~1/AppData/Local/Temp/xlsx_extract/**)",
+      "Bash(pip3 --version)",
+      "Bash(pip3 show *)",
+      "Bash(python3 -m pip --version)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}

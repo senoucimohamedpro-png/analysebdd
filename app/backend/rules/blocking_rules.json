@@ -1,0 +1,12 @@
+{
+  "champ_evalue": "priorite",
+  "description": "Référentiel IT basé sur les valeurs réelles exportées depuis Hermes.Net (fichier WFP TRP). Valeurs observées: -999, -800, -300, -50, -5, -1, 0, 1, 49.",
+  "regles": [
+    { "id": "exclusion_forte", "champ": "priorite", "operateur": "==", "valeur": -999, "bloque": true, "label": "Exclusion forte système" },
+    { "id": "exclusion_800", "champ": "priorite", "operateur": "==", "valeur": -800, "bloque": true, "label": "Exclusion 800" },
+    { "id": "exclusion_300", "champ": "priorite", "operateur": "==", "valeur": -300, "bloque": true, "label": "Exclusion 300" },
+    { "id": "exclusion_50", "champ": "priorite", "operateur": "==", "valeur": -50, "bloque": true, "label": "Exclusion 50" },
+    { "id": "faux_numero", "champ": "priorite", "operateur": "==", "valeur": -5, "bloque": true, "label": "Faux numéro" },
+    { "id": "appel_sans_erreur", "champ": "priorite", "operateur": "==", "valeur": -1, "bloque": false, "label": "Fiche appelée sans erreur (non bloquante)" }
+  ]
+}

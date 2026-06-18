@@ -1,0 +1,24 @@
+# Règles de classification basées sur les valeurs réelles de contact_qualif1
+# observées dans les exports Hermes.Net (fichier WFP TRP C1 GEN).
+
+positif:
+  - "pa en ligne"
+  - "don en ligne"
+  - "don avec montant"
+  - "pa"
+  - "upgrade"
+
+traite:
+  - "pa en ligne"
+  - "don en ligne"
+  - "don avec montant"
+  - "pa"
+  - "upgrade"
+  - "refus argumente"
+  - "refus de repondre"
+  - "indecis"
+
+# Toute valeur absente de la liste "traite" est NON TRAITEE :
+# recycled record, No More CallBack Rules, Wrong Number System,
+# faux numero machine, Call Back Disable, Answering Machine,
+# doublon, hors cible, rappel personnel, Not Qualified, Callback - abandoned
